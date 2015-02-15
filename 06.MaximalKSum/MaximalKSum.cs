@@ -1,15 +1,14 @@
 ﻿using System;
 
-//      Problem 6. Maximal K sum
+//  Problem 6. Maximal K sum
 
-//      Write a program that reads two integer numbers N and K and an array of N elements from the console.
-//      Find in the array those K elements that have maximal sum.
+//  Write a program that reads two integer numbers N and K and an array of N elements from the console.
+//  Find in the array those K elements that have maximal sum.
 
 class MaximalKSum
 {
     static void Main()
     {
-        Console.WriteLine("Calculating the sum of the greatest numbers in an array");
         Console.Write("Enter the number of the array's elements: ");
         int n = int.Parse(Console.ReadLine());
 

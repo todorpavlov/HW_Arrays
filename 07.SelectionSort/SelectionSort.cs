@@ -1,10 +1,15 @@
 ﻿using System;
 
+//    Problem 7. Selection sort
+
+//    Sorting an array means to arrange its elements in increasing order. Write a program to sort an array.
+//    Use the Selection sort algorithm: Find the smallest element, move it at the first position, find the smallest from the rest, move it at the second position, etc.
+
+
 class SelectionSort
     {
         static void Main()
         {
-            Console.WriteLine("Selection sorting an array.");
             Console.Write("Enter size of the array: ");
             int n = int.Parse(Console.ReadLine());
             int[] arr = new int[n];

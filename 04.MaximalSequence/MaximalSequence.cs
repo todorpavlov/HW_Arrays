@@ -1,8 +1,8 @@
 ﻿using System;
 
-//      Problem 4. Maximal sequence
+//  Problem 4. Maximal sequence
 
-//      Write a program that finds the maximal sequence of equal elements in an array.
+//  Write a program that finds the maximal sequence of equal elements in an array.
 
 class MaxEqualElementsSequence
 {
@@ -16,7 +16,7 @@ class MaxEqualElementsSequence
         int sequenceStart = 0;
         for (int index = 0; index < length; index++)
         {
-            Console.Write( "Enter element {0}: ", index);
+            Console.Write("Enter element {0}: ", index);
             arr[index] = int.Parse(Console.ReadLine());
             if (index != 0)
             {
@@ -34,12 +34,13 @@ class MaxEqualElementsSequence
                     sequenceStart = index + 1 - maxCount;
                 }
             }
-        }      
+        }
 
         Console.Write("The maximal sequence of equal elements is: ");
         for (int index = sequenceStart; index < sequenceStart + maxCount; index++)
         {
-            Console.Write("{0} ",arr[index]);
+            Console.WriteLine("{0} ", arr[index]);
+            break;
         }
     }
 }

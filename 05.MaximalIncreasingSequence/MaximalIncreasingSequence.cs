@@ -1,6 +1,10 @@
 ﻿using System;
 
-    class MaximalIncreasingSequence
+//  Problem 5. Maximal increasing sequence
+
+//  Write a program that finds the maximal increasing sequence in an array.
+
+class MaximalIncreasingSequence
     {
         static void Main()
         {
@@ -37,6 +41,7 @@
             {
                 Console.Write("{0} ", arr[index]);
             }
+            Console.WriteLine();
         }
     }
 

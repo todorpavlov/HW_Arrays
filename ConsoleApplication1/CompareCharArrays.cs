@@ -1,11 +1,10 @@
 ﻿using System;
 
-//      Problem 3. Compare char arrays
+//  Problem 3. Compare char arrays
 
-//      Write a program that compares two char arrays lexicographically (letter by letter).
+//  Write a program that compares two char arrays lexicographically (letter by letter).
 
-
-    class CompareCharArrays
+class CompareCharArrays
     {
         static void Main()
         {

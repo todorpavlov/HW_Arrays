@@ -1,11 +1,13 @@
 ﻿using System;
 
-    class FrequentNumber
+//    Problem 9. Frequent number
+
+//    Write a program that finds the most frequent number in an array.
+
+class FrequentNumber
     {
         static void Main()
         {
-            Console.WriteLine("Frequent Number");
-            Console.WriteLine();
             Console.Write("Enter the lenght of the array: ");
             int n = int.Parse(Console.ReadLine());
             

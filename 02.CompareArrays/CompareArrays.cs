@@ -4,7 +4,6 @@
 
 //  Write a program that reads two integer arrays from the console and compares them element by element.
 
-
 class CompareArrays
 {
     static void Main()

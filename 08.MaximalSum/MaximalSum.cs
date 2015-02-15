@@ -1,12 +1,13 @@
 ﻿using System;
 
-//Write a program that finds the sequence of maximal sum in given array.
+//  Problem 8. Maximal Sum
+
+//  Write a program that finds the sequence of maximal sum in given array.
 
 class MaximalSumInSequance
 {
     static void Main()
     {
-        Console.WriteLine("Calculating the maximal sum of sequance in an array.");
         Console.Write("Enter size of the array: ");
         int n = int.Parse(Console.ReadLine());
         int[] arr = new int[n];
